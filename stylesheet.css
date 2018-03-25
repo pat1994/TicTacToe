@@ -1,0 +1,60 @@
+.heading {
+    text-align:center;
+    font-family:Raleway;
+    background-color:lightblue;
+    display: flex;
+    align-items:center;
+}
+.title {
+    flex-grow: 1;
+}
+button {
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: lightblue;
+    border-color: black;
+    transition-duration: 0.25s;
+}
+.start-button{
+    margin:10px;
+}
+.quit-button{
+    margin:10px;
+}
+.replay-button {
+    margin:10px;
+}
+.selection{
+    display:flex;
+}
+.startwithx{
+    background-color: white;
+    margin:10px;
+}
+.startwith0{
+    background-color: white;
+    margin:10px;
+}
+
+.Row
+{
+    display: table-row;
+}
+.table {
+    overflow-x: auto;
+    margin-left:20%;
+    margin-top: 15%;
+    margin-right:20%;
+}
+
+
+.Cell
+{
+    display: table-cell;
+    border:solid;
+    border-width:5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width:100px;
+    height:150px;
+}
